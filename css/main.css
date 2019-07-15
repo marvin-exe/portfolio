@@ -1,7 +1,19 @@
 body {
+  font-family: "Chakra Petch", sans-serif;
 }
 
-.main-image {
+/* .main-image {
   width: 800px;
   height: 800px;
+} */
+
+img {
+  width: 800px;
+  height: 800px;
+}
+
+.title {
+  text-align: right;
+  padding-right: 80px;
+  border-bottom: 1px solid black;
 }
