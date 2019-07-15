@@ -1,2 +1,2 @@
-# portfolio
-Personal portfolio
+# Portfolio
+Personal portfolio featuring recents projects I made
