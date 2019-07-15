@@ -14,7 +14,17 @@ img {
 }
 
 .title {
-  text-align: right;
+  /* text-align: right; */
   padding-right: 80px;
   border-bottom: 1px solid black;
+}
+
+.navbar {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navbar-item {
+  display: inline-block;
+  padding-right: 100px;
 }
