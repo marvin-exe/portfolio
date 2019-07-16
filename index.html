@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Marvin's Portfolio</title>
   </head>
   <link
@@ -13,28 +14,38 @@
     <header class="title">
       <h1>Marvin Duarte</h1>
       <h3>Front-End Dude</h3>
+      <button class="hamburger" style="display: block;">☰</button>
 
       <nav class="navbar">
-        <ol>
-          <li class="navbar-item">Home</li>
-          <li class="navbar-item">About Me</li>
-          <li class="navbar-item">Contact</li>
-        </ol>
+        <ul>
+          <a href="#"><li class="navbar-item">Home</li></a>
+          <a href="#"><li class="navbar-item">About Me</li></a>
+          <a href="#"><li class="navbar-item">Contact</li></a>
+        </ul>
       </nav>
     </header>
 
     <main>
       <div class="main-image">
-        <img src="images/background-min.jpg" alt="main image" />
+        <img src="images/background.jpg" alt="main image" />
       </div>
     </main>
 
-    <section>
-      <h2>about me?</h2>
-    </section>
-
     <article class="projects">
-      <h2>github porjects here</h2>
+      <img
+        class="project-img"
+        src="images/rps.jpg"
+        alt="rock, paper, scissors"
+      />
+      <a href="https://github.com/marvin-exe/Rock-Paper-Scissors">RPS Game</a>
+      <img class="project-img" src="images/poke.jpg" alt="pokeball" />
+      <a href="https://github.com/marvin-exe/pixelArt">Pixel Art Maker</a>
+      <img
+        class="project-img"
+        src="images/game.jpg"
+        alt="text based adventure game"
+      />
+      <a href="https://github.com/marvin-exe/adventure-game">Adventure Game</a>
     </article>
 
     <footer></footer>
