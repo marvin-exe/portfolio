@@ -11,43 +11,42 @@
   />
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <body>
-    <header class="title">
-      <h1>Marvin Duarte</h1>
-      <h3>Front-End Dude</h3>
-      <button class="hamburger" style="display: block;">☰</button>
-
-      <nav class="navbar">
-        <ul>
-          <a href="#"><li class="navbar-item">Home</li></a>
-          <a href="#"><li class="navbar-item">About Me</li></a>
-          <a href="#"><li class="navbar-item">Contact</li></a>
-        </ul>
-      </nav>
-    </header>
-
+    <div class="header-container">
+      <header>
+        <img src="images/background.jpg" alt="page background" />
+        <div class="title-text">
+          <h1>Hi I'm Marvin</h1>
+          <h2>Front-End Dev</h2>
+          <h2>welcome to my page</h2>
+        </div>
+      </header>
+    </div>
     <main>
-      <div class="main-image">
-        <img src="images/background.jpg" alt="main image" />
+      <div class="projects">
+        <img
+          class="project-img"
+          src="images/rps.jpg"
+          alt="rock, paper, scissors"
+        />
+        <a href="https://github.com/marvin-exe/Rock-Paper-Scissors">RPS Game</a>
+      </div>
+
+      <div class="projects">
+        <img class="project-img" src="images/poke.jpg" alt="pokeball" />
+        <a href="https://github.com/marvin-exe/pixelArt">Pixel Art Maker</a>
+      </div>
+
+      <div class="projects">
+        <img
+          class="project-img"
+          src="images/game.jpg"
+          alt="text based adventure game"
+        />
+        <a href="https://github.com/marvin-exe/adventure-game"
+          >Adventure Game</a
+        >
       </div>
     </main>
-
-    <article class="projects">
-      <img
-        class="project-img"
-        src="images/rps.jpg"
-        alt="rock, paper, scissors"
-      />
-      <a href="https://github.com/marvin-exe/Rock-Paper-Scissors">RPS Game</a>
-      <img class="project-img" src="images/poke.jpg" alt="pokeball" />
-      <a href="https://github.com/marvin-exe/pixelArt">Pixel Art Maker</a>
-      <img
-        class="project-img"
-        src="images/game.jpg"
-        alt="text based adventure game"
-      />
-      <a href="https://github.com/marvin-exe/adventure-game">Adventure Game</a>
-    </article>
-
     <footer></footer>
   </body>
 </html>
