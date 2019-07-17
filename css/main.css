@@ -17,6 +17,7 @@ video {
 
 .projects img {
   width: 70%;
+  cursor: pointer;
 }
 
 .title-container {
