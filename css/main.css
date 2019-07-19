@@ -1,10 +1,30 @@
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: "zocial", sans-serif;
+}
+
 body {
   font-family: "Chakra Petch", sans-serif;
-  background-color: #f2f5f6;
+}
+
+ul {
+  list-style: none;
+  display: block;
+}
+
+li {
+  float: left;
+  padding: 15px;
 }
 
 h1 {
   padding-bottom: 0px;
+}
+
+#project-title {
+  text-align: center;
 }
 
 img,
@@ -15,9 +35,22 @@ video {
   max-height: 100%;
 }
 
-.projects img {
-  width: 70%;
+.rps,
+.pixelart,
+.adventure img {
+  width: 50%;
   cursor: pointer;
+}
+
+.rps,
+.pixelart,
+.adventure p {
+  margin-top: 0px;
+}
+
+.pixelart {
+  text-align: right;
+  margin: 0px;
 }
 
 .title-container {
@@ -28,15 +61,18 @@ video {
 .title-text {
   text-align: center;
   position: absolute;
-  top: 5vh;
+  top: 4vh;
   left: 20vw;
   color: #d9d9d9;
 }
 
-.project-img {
-  width: calc(100% - 15px) / 3;
+.about-me {
+  font-size: 1.5em;
+  background-color: #f2f5f6;
+  padding: 1em;
+  text-align: center;
 }
 
-.projects {
-  width: 33%;
+.contact {
+  font-size: 1.5em;
 }
