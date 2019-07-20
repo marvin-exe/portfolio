@@ -1,6 +1,7 @@
 .logo {
-  width: 22vw;
   height: 22vh;
+  max-width: 22vw;
+  max-height: 22vh;
   margin-right: 0px;
 }
 
@@ -10,4 +11,63 @@
 
 .contact-info {
   text-align: center;
+}
+
+@media screen and (min-device-width: 760px) {
+  h1 {
+    font-size: 5em;
+  }
+
+  body {
+    margin: auto;
+  }
+
+  .about-me {
+    font-size: 3em;
+  }
+
+  #project-title {
+    font-size: 3em;
+  }
+
+  .project-name {
+    font-size: 3em;
+  }
+
+  .contact-title {
+    font-size: 2.5em;
+  }
+
+  .zocial-github {
+    font-size: 2em;
+  }
+
+  .zocial-linkedin {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-device-width: 850px) {
+  body {
+    max-width: 850px;
+    max-height: 1080px;
+  }
+
+  .contact-info {
+    font-size: 1em;
+  }
+
+  .title-text {
+    max-width: 850px;
+  }
+
+  .zocial-github {
+    font-size: 1.8em;
+    margin: 10%;
+  }
+
+  .zocial-linkedin {
+    font-size: 1.8em;
+    margin: 10%;
+  }
 }
