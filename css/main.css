@@ -20,6 +20,10 @@ h1 {
   display: inline-block;
 }
 
+footer {
+  background-color: #f2f5f6;
+}
+
 #project-title {
   text-align: center;
 }
@@ -58,7 +62,6 @@ video {
 }
 
 .title-text h1 {
-  /* float: right; */
   text-align: center;
 }
 
