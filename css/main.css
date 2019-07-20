@@ -7,6 +7,7 @@
 
 body {
   font-family: "Chakra Petch", sans-serif;
+  min-device-width: 360px;
 }
 
 ul {
@@ -14,13 +15,9 @@ ul {
   display: block;
 }
 
-li {
-  float: left;
-  padding: 15px;
-}
-
 h1 {
   padding-bottom: 0px;
+  display: inline-block;
 }
 
 #project-title {
@@ -33,38 +30,36 @@ object,
 video {
   max-width: 100%;
   max-height: 100%;
+  display: inline-block;
 }
 
 .rps,
 .pixelart,
 .adventure img {
-  width: 50%;
   cursor: pointer;
+  display: inline-block;
 }
 
-.rps,
-.pixelart,
-.adventure p {
+.project-name {
   margin-top: 0px;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .pixelart {
-  text-align: right;
   margin: 0px;
 }
 
 .logo {
-  width: 15%;
-  height: 15%;
+  width: 15vw;
+  height: 15vh;
+  float: left;
+  margin-right: 10px;
 }
 
-/* .title-container {
-  position: relative;
-  text-align: center;
-} */
-
 .title-text h1 {
-  float: right;
+  /* float: right; */
+  text-align: center;
 }
 
 .about-me {
@@ -74,6 +69,21 @@ video {
   text-align: center;
 }
 
-.contact {
-  font-size: 1.5em;
+.contact-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.zocial-github {
+  margin: 13vw;
+  display: inline;
+}
+
+.zocial-linkedin {
+  margin: 13vw;
+  display: inline;
 }

@@ -10,6 +10,11 @@
     rel="stylesheet"
   />
   <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link
+    rel="stylesheet"
+    media="screen and (min-width: 550px)"
+    href="css/breakpoints.css"
+  />
   <body>
     <div class="header-container">
       <header>
@@ -30,6 +35,7 @@
       </article>
 
       <h2 id="project-title">Projects</h2>
+
       <!-- rps project div -->
       <div class="rps">
         <a
@@ -40,15 +46,18 @@
             src="images/rps.jpg"
             alt="rock, paper, scissors"
         /></a>
-        <p>Rock Paper Scissors Game</p>
+        <p class="project-name">Rock Paper Scissors</p>
       </div>
 
       <!-- pixelart project div -->
       <div class="pixelart">
         <a class="project-link" href="https://github.com/marvin-exe/pixelArt"
-          ><img class="project-img" src="images/poke.jpg" alt="pokeball"
+          ><img
+            class="project-img"
+            src="images/pixelart.png"
+            alt="pixel art image"
         /></a>
-        <p>Pixel Art Maker</p>
+        <p class="project-name">Pixel Art Maker</p>
       </div>
 
       <!-- adventure game div -->
@@ -61,17 +70,19 @@
             src="images/game.jpg"
             alt="text based adventure game"
         /></a>
-        <p>Adventure Game</p>
+        <p class="project-name">Adventure Game</p>
       </div>
     </main>
     <footer>
-      <article class="contact">
-        <h4>Contact me</h4>
-        <ul>
-          <li class="zocial-github">Github</li>
-          <li class="zocial-linkedin">Linkedin</li>
-        </ul>
-      </article>
+      <section class="contact-info">
+        <h2 class="contact-title">Contact Me</h2>
+        <a class="zocial-github" href="https://github.com/marvin-exe">GitHub</a>
+        <a
+          class="zocial-linkedin"
+          href="https://www.linkedin.com/in/marvin-duarte/"
+          >LinkedIn</a
+        >
+      </section>
     </footer>
   </body>
 </html>
