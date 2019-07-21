@@ -37,6 +37,20 @@ video {
   display: inline-block;
 }
 
+/* header content */
+
+.logo {
+  width: 15vw;
+  height: 15vh;
+  float: left;
+  margin-right: 10px;
+}
+
+.title-text h1 {
+  text-align: center;
+}
+
+/* main projects */
 .rps,
 .pixelart,
 .adventure img {
@@ -54,23 +68,14 @@ video {
   margin: 0px;
 }
 
-.logo {
-  width: 15vw;
-  height: 15vh;
-  float: left;
-  margin-right: 10px;
-}
-
-.title-text h1 {
-  text-align: center;
-}
-
 .about-me {
   font-size: 1.5em;
   background-color: #f2f5f6;
   padding: 1em;
   text-align: center;
 }
+
+/* footer content */
 
 .contact-title {
   text-align: center;
