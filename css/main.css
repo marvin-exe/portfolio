@@ -7,7 +7,7 @@
 
 body {
   font-family: "Chakra Petch", sans-serif;
-  min-device-width: 360px;
+  min-width: 360px;
 }
 
 ul {
