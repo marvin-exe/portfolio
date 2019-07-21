@@ -51,11 +51,22 @@ video {
 }
 
 /* main projects */
+
 .rps,
 .pixelart,
 .adventure img {
-  cursor: pointer;
   display: inline-block;
+}
+
+.rps,
+.pixelart,
+.adventure a {
+  cursor: pointer;
+}
+
+.project-link {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .project-name {
@@ -89,9 +100,19 @@ video {
 .zocial-github {
   margin: 13vw;
   display: inline;
+  text-decoration: none;
+}
+
+.zocial-github:link {
+  color: black;
 }
 
 .zocial-linkedin {
   margin: 13vw;
   display: inline;
+  text-decoration: none;
+}
+
+.zocial-linkedin:link {
+  color: black;
 }
