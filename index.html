@@ -1,87 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Marvin's Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link
-      rel="stylesheet"
-      media="screen and (min-width: 550px)"
-      href="css/breakpoints.css"
-    />
-  </head>
+    <link rel="stylesheet" media="screen and (min-width: 550px)" href="css/breakpoints.css" />
+</head>
 
-  <body>
+<body>
     <div class="header-container">
-      <header>
-        <div class="title-text">
-          <h1>Marvin Duarte</h1>
-          <img class="logo" src="images/logo.svg" alt="page logo" />
-        </div>
-        <img src="images/laptop.jpg" alt="page background" />
-      </header>
+        <header>
+          <div class="flex-header-container">
+            <div class="title-text">
+                <h1>Marvin Duarte</h1>
+                <img class="logo" src="images/logo.svg" alt="page logo" />
+            </div>
+            <img class="laptop-logo" src="images/laptop.jpg" alt="page background" />
+
+            <section class="about-me">
+                <h4>About Me</h4>
+                <p>
+                    Hello and welcome to my portfolio, I'm Marvin a computer technician on the way to become a front-end developer.
+                </p>
+            </section>
+          </div>
+        </header>
     </div>
     <main>
-      <article class="about-me">
-        <h4>About Me</h4>
-        <p>
-          Hello and welcome to my portfolio, I'm Marvin a computer technician on
-          the way to become a front-end developer.
-        </p>
-      </article>
 
-      <h2 id="project-title">Projects</h2>
+        <h2 id="project-title">Projects</h2>
 
-      <!-- rps project div -->
-      <div class="rps">
-        <a
-          class="project-link"
-          href="https://github.com/marvin-exe/Rock-Paper-Scissors"
-          ><img
-            class="project-img"
-            src="images/rps.jpg"
-            alt="rock, paper, scissors"
-        /></a>
-        <p class="project-name">Rock Paper Scissors</p>
-      </div>
+        <div class="flex-project-container">
+          <!-- rps project div -->
+          <div class="rps">
+              <a class="project-link" href="https://github.com/marvin-exe/Rock-Paper-Scissors"><img class="project-img" src="images/rps.jpg" alt="rock, paper, scissors" /></a>
+              <p class="project-name">Rock Paper Scissors</p>
+          </div>
 
-      <!-- pixelart project div -->
-      <div class="pixelart">
-        <a class="project-link" href="https://github.com/marvin-exe/pixelArt"
-          ><img
-            class="project-img"
-            src="images/pixelart.png"
-            alt="pixel art image"
-        /></a>
-        <p class="project-name">Pixel Art Maker</p>
-      </div>
+          <!-- adventure game div -->
+          <div class="adventure">
+            <a class="project-link" href="https://github.com/marvin-exe/adventure-game"><img class="project-img" src="images/game.jpg" alt="text based adventure game" /></a>
+            <p class="project-name">Adventure Game</p>
+          </div>
 
-      <!-- adventure game div -->
-      <div class="adventure">
-        <a
-          class="project-link"
-          href="https://github.com/marvin-exe/adventure-game"
-          ><img
-            class="project-img"
-            src="images/game.jpg"
-            alt="text based adventure game"
-        /></a>
-        <p class="project-name">Adventure Game</p>
-      </div>
+          <!-- pixelart project div -->
+          <div class="pixelart">
+              <a class="project-link" href="https://github.com/marvin-exe/pixelArt"><img class="project-img" src="images/pixelart.png" alt="pixel art image" /></a>
+              <p class="project-name">Pixel Art Maker</p>
+          </div>
+        </div>
     </main>
     <footer>
-      <section class="contact-info">
-        <h2 class="contact-title">Contact Me</h2>
-        <a class="zocial-github" href="https://github.com/marvin-exe">GitHub</a>
-        <a
-          class="zocial-linkedin"
-          href="https://www.linkedin.com/in/marvin-duarte/"
-          >LinkedIn</a
+        <section class="contact-info">
+            <h2 class="contact-title">Contact Me</h2>
+            <a class="zocial-github" href="https://github.com/marvin-exe">GitHub</a>
+            <a class="zocial-linkedin" href="https://www.linkedin.com/in/marvin-duarte/">LinkedIn</a
         >
         <p>If life gives you lemons...</p>
       </section>
