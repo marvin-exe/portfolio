@@ -4,10 +4,10 @@
 [class*="zocial-"]:before {
   font-family: "zocial", sans-serif;
 }
-
 body {
   font-family: "Chakra Petch", sans-serif;
   min-width: 360px;
+  max-width: 900px;
 }
 
 ul {
@@ -50,7 +50,17 @@ video {
   text-align: center;
 }
 
+.about-me {
+  font-size: 1.5em;
+  background-color: #f2f5f6;
+  text-align: center;
+}
+
 /* main projects */
+
+.flex-project-container{
+  margin: auto;
+}
 
 .rps,
 .pixelart,
@@ -77,13 +87,6 @@ video {
 
 .pixelart {
   margin: 0px;
-}
-
-.about-me {
-  font-size: 1.5em;
-  background-color: #f2f5f6;
-  padding: 1em;
-  text-align: center;
 }
 
 /* footer content */
