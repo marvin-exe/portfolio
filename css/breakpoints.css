@@ -22,8 +22,29 @@
     margin: auto;
   }
 
+  .flex-project-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .flex-header-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-img{
+    width: 33vw
+  }
+
+  .laptop-logo{
+    width: 80vw;
+    margin: auto;
+  }
+
   .about-me {
-    font-size: 3em;
+    font-size: 2em;
+    margin: auto;
   }
 
   #project-title {
@@ -31,7 +52,34 @@
   }
 
   .project-name {
-    font-size: 3em;
+    font-size: 2em;
+  }
+
+  .rps {
+    width: calc((760px - 30px)/3);
+    display: block;
+    margin-top: 5%;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    text-align: center;
+  }
+
+  .adventure{
+    width: calc((760px - 30px)/3);
+    display: block;
+    margin-top: 5%;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    text-align: center;
+  }
+
+  .pixelart{
+    width: calc((760px - 30px)/3);
+    display: block;
+    margin-top: 5%;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    text-align: center;
   }
 
   .contact-title {
@@ -47,10 +95,22 @@
   }
 }
 
-@media screen and (min-device-width: 850px) {
+@media screen and (max-device-width: 900px) {
   body {
     max-width: 850px;
     max-height: 1080px;
+  }
+
+  .rps{
+    width: calc((900px - 30px)/3);
+  }
+
+  .adventure{
+    width: calc((900px - 30px)/3);
+  }
+
+  .pixelart{
+    width: calc((900px - 30px)/3);
   }
 
   .contact-info {
@@ -63,11 +123,9 @@
 
   .zocial-github {
     font-size: 1.8em;
-    margin: 10%;
   }
 
   .zocial-linkedin {
     font-size: 1.8em;
-    margin: 10%;
   }
 }
